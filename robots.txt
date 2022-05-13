@@ -16,3 +16,5 @@ Allow: /banking-workshop-registration.html
 Allow: /org-workshop-registration.html
 Allow: /privacy.html
 Allow: /terms.html
+
+Sitemap: https://workshop.digidigital.co.in/sitemap.xml
