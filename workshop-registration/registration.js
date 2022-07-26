@@ -74,3 +74,7 @@ $(".prev-3").click(function(){
 $(".prev-4").click(function(){
   window.location.href="https://workshop.digidigital.co.in/";
 });
+
+$(".sub-1").click(function(){
+  window.location.href="https://chat.whatsapp.com/DNZ0Wk7ePVUKAfGfZ9l2qY";
+});
