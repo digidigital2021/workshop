@@ -43,6 +43,13 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
+    
+<style>
+h3 {
+text-align: center;
+font-size: 30px;
+}
+</style>
 
 </head>
 
@@ -135,6 +142,9 @@
                             </ol>
                         </nav>
                     </div>
+                    
+                    <div><h3 id="demo"></h3></div>
+                    
                 </div>
             </div>
         </div>
@@ -522,7 +532,7 @@
                                 <li><a href="registration.html">Workshop Registration</a></li>
                                 <li><a href="membership.html">Membership</a></li>
                                 <li><a href="contact.html">Contact Us</a></li>
-                                <!-- <li><a href="schedule.html">Workshop Venue Details</a></li> -->
+                                <li><a href="https://telegram.me/digitechbox">Telegram Group</a></li>
                             </ul>
 
                             <!-- Footer Gallery -->
@@ -592,6 +602,25 @@
     <script src="js/confer.bundle.js"></script>
     <!-- Active -->
     <script src="js/default-assets/active.js"></script>
+
+    <script>
+var deadline = new Date("Aug 18, 2022 24:00:00").getTime();
+var x = setInterval(function() {
+var now = new Date().getTime();
+var t = deadline - now;
+var days = Math.floor(t / (1000 * 60 * 60 * 24));
+var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
+var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((t % (1000 * 60)) / 1000);
+document.getElementById("demo").innerHTML = days + "d "
++ hours + "h " + minutes + "m " + seconds + "s ";
+	if (t < 0) {
+		clearInterval(x);
+		document.getElementById("demo").innerHTML = "Tools & Software are not available now. Join Telegram Group for more Tools and Software updates.";
+	}
+}, 1000);
+
+</script>
 
 </body>
 
