@@ -35,9 +35,9 @@
             <div class="card card-4">
                 <div class="card-body">
                     <center>
-                        <h2 class="title">Cyber Security Awareness Virtual/ Offline Workshop Feedback Form - 2022</h2>
+                        <h2 class="title">Google Dorking Workshop Feedback Form - 2022</h2>
                     </center>
-                    <form action="https://sheetdb.io/api/v1/wjwqc7ju6l5fg" method="post" id="sheetdb-form">
+                    <form action="https://sheetdb.io/api/v1/0xv5u8rwl98l8" method="post" id="sheetdb-form">
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
@@ -82,7 +82,7 @@
                             
                                 <div class="input-group">
                                     <label class="label">WhatsApp Number *</label>
-                                    <input class="input--style-4" type="text" name="data[whatsapp]" required>
+                                    <input class="input--style-4" type="number" name="data[whatsapp]" required>
                                 </div>
                             
                             <!-- <div class="input-group">
@@ -149,6 +149,19 @@
                         </div>
 
                         <div class="input-group">
+                            <label class="label">Are you interested to attend the next workshops? *</label>
+                            <div class="rs-select2 js-select-simple select--no-search">
+                                <select name="data[interested]" required>
+                                    <option disabled="disabled" selected="selected">Choose option</option>
+                                    <option>Yes</option>
+                                    <option>No</option>
+                                    
+                                </select>
+                                <div class="select-dropdown"></div>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
                             <label class="label">Your Feedback *</label>
                             <input class="input--style-4" type="text" name="data[feedback]" required>
                         </div>
@@ -189,16 +202,16 @@
                   ).then((html) => {
         
                     document.getElementById("sheetdb-form").reset();
-                    alert("Thank you for giving your feedback. This helps us to motivate and improve ourselves...")
+                    // alert("Thank you for giving your feedback. This helps us to motivate and improve ourselves...")
                     //new page open on submit
                     //window.open('th.html', '_blank');
+                    window.open('thank-you.html');
         
                   });
                 });
-    
-         
-        
+
             </script>
+    
     <script src="vendor/jquery/jquery.min.js"></script>
     <!-- Vendor JS-->
     <script src="vendor/select2/select2.min.js"></script>
