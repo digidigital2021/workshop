@@ -8,6 +8,7 @@
     <meta name="robots" content="noindex, nofollow">
 </head>
 <body>
+<p>new extended path: -new_path_redirection_20202025_test_path_ad_2025.html</p>
     <style>
         body {
           background-image: url('https://image.freepik.com/free-photo/woman-showing-middle-finger-as-obscene-offensive-insult_47726-5013.jpg');
